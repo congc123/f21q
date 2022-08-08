@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 228, 228);
+}
+#top{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(230, 228, 228);
+    left: 0;
+    top: 0;
+}
+header{
+    display: flex;
+    height: 80px;
+}
+img{
+    height: 40px;
+    width: 300px;
+    padding-top: 10px;
+}
+.logo{
+    flex-grow: 3;
+}
+#nav-bar{
+    flex-grow: 2;
+}
+#nav-bar ol{
+    display: flex;
+}
+#nav-bar li{
+    flex-grow: 1;
+}
+ol{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+#form input{
+    margin: 5px auto;
+}
+#form h2{
+    margin: 5px auto;
+    font-size: 25px;
+}
+#email{
+    width: 200px;
+    height: 20px;
+}
+#submit{
+    background-color: rgb(199, 171, 11);
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+#submit:hover{
+    background-color: rgba(255, 166, 0, 0.993);
+}
+#container{
+    margin:100px 20% 50px 30%;
+    
+}
+.ss h2{
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+#container p{
+    margin-top: 0px;
+}
+iframe{
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin:0 auto ;
+    display: flex;
+    flex: content;
+    margin-bottom: 100px;
+}
+#Pricing{
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
+    margin-bottom: 50px;
+}
+.box{
+   border: solid 1px black; 
+   text-align: center;
+   width: 300px;
+   margin:0 10px;
+   
+}
+.box header{
+    background-color: rgb(182, 180, 180);
+    display: block;
+    text-align: center;
+    font-size: larger;
+    height: 50px;
+    line-height: 50px;
+}
+.box ol{
+    padding: 0;
+}
+.box li{
+    margin: 5px;
+}
+.box h2{
+    margin-bottom: 0;
+}
+.box .botton{
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: yellow;
+    border:none;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    transition: 1s;
+}
+.box .botton:hover{
+    background-color: orange;
+}
+footer{
+    background-color: gray;
+    width: 1000px;
+    margin: auto;
+    text-align: right;
+    height: 60px;
+    padding: 7px 20px;
